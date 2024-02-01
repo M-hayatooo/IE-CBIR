@@ -26,6 +26,7 @@ Isometric feature embedding for content-based image retrieval , Hayato Muraki, K
 
 
   
+Version
   
   <table>
 <thead>
@@ -70,7 +71,3 @@ Isometric feature embedding for content-based image retrieval , Hayato Muraki, K
 </tbody>
 </table>
 
-<br>
-2023年第85回 情報処理学会 全国大会(2023/03/02～04) で発表
-<br>
-情報処理学会(https://www.ipsj.or.jp/index.html)
