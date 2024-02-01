@@ -1,4 +1,4 @@
-# IE-CBIR
+# IE-CBIR (Isometric Feature Embedding for Content-Based Image Retrieval)
 ![image](https://github.com/M-hayatooo/IE-CBIR/assets/82699320/e787a4f5-74ff-4453-a7bd-172333d33913)
 
 
