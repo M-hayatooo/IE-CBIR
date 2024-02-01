@@ -2,12 +2,12 @@
 
 
 # IE-CBIR
-Isometric Feature Embedding for Content-Based Image Retrieval
+<strong>Isometric Feature Embedding for Content-Based Image Retrieval</strong>
 
 The purpose of this research is to realize a CBIR (content-based medical image retrieval) system.<br>
 
-Author：Hayato Muraki, Kei Nishimaki, Shuya Tobaru, Kenichi Oishi, and Hitoshi Iyatomi
-Abst:Content-based image retrieval (CBIR) technology
+<strong>Author</strong>：Hayato Muraki, Kei Nishimaki, Shuya Tobaru, Kenichi Oishi, and Hitoshi Iyatomi
+<strong>Abstract</strong>:Content-based image retrieval (CBIR) technology
 for brain MRI is needed for diagnostic support and research. To
 realize practical CBIR, it is necessary to obtain a low-dimensional
 representation that simultaneously achieves (i) data integrity,
