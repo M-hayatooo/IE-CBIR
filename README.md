@@ -3,13 +3,13 @@
 
 
 **Isometric Feature Embedding for Content-Based Image Retrieval**<br>
-**Author**：[Hayato Muraki](https://github.com/M-hayatooo), Kei Nishimaki, Shuya Tobaru, Kenichi Oishi, and [Hitoshi Iyatomi](https://iyatomi-lab.info) <br>
+**Author** : [Hayato Muraki](https://github.com/M-hayatooo), Kei Nishimaki, Shuya Tobaru, Kenichi Oishi, and [Hitoshi Iyatomi](https://iyatomi-lab.info) <br>
 
 
 The purpose of this research is to realize a CBIR (content-based medical image retrieval) system.<br>
 
 
-<strong>Abstract</strong>:_Content-based image retrieval (CBIR) technology for brain MRI is needed for diagnostic support and research. To
+**Abstract** : _Content-based image retrieval (CBIR) technology for brain MRI is needed for diagnostic support and research. To
 realize practical CBIR, it is necessary to obtain a low-dimensional representation that simultaneously achieves (i) data integrity, (ii) high disease retrieval capability, and (iii) interpretability. However, conventional methods based on machine learning techniques
 such as variational autoencoders (VAE) cannot acquire representations that satisfy these requirements; hence, an ad-hoc
 classification model must be prepared for disease retrieval. In this paper, we propose isometric feature embedding for CBIR (IECBIR),
