@@ -3,7 +3,8 @@
 
 
 **Isometric Feature Embedding for Content-Based Image Retrieval (IE-CBIR)**
-**Author** : [Hayato Muraki](https://github.com/M-hayatooo), Kei Nishimaki, Shuya Tobaru, Kenichi Oishi, and [Hitoshi Iyatomi](https://iyatomi-lab.info) <br><br>
+**Author** : [Hayato Muraki](https://github.com/M-hayatooo), Kei Nishimaki, Shuya Tobaru, Kenichi Oishi, and [Hitoshi Iyatomi](https://iyatomi-lab.info) <br>
+
 Department of Applied Informatics, Graduate School of Science and Engineering, Hosei University, Tokyo, Japan<br>
 Department of Radiology and Radiological Science, Johns Hopkins University School of Medicine, Baltimore, USA<br>
 The purpose of this research is to realize a CBIR (content-based medical image retrieval) system.<br>
