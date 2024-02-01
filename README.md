@@ -11,6 +11,12 @@ The purpose of this research is to realize a CBIR (content-based medical image r
 ゆえに本研究では再構成画像の解像度の向上を目的とし，精度向上に取り組んでいる．
 
 
+CISS 2024 https://ee-ciss.princeton.edu/
+accept
+
+
+
+
 <h2> 低次元空間の次元数　Number of dimensions in latent space </h2>
 
 本研究ではVAEにより次元削減をしており，潜在空間は多次元正規分布を仮定している．<br>
