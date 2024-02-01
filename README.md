@@ -14,10 +14,10 @@ The purpose of this research is to realize a CBIR (content-based medical image r
 <h2> 低次元空間の次元数　Number of dimensions in latent space </h2>
 
 本研究ではVAEにより次元削減をしており，潜在空間は多次元正規分布を仮定している．<br>
-その低次元空間の次元数は <strong>1,200</strong> と <strong> 600 </strong>次元で検証している．
+その低次元空間の次元数は <strong>1,400</strong> 次元としている．
 
 
-入力画像の3次元脳MR画像は約 <strong>500万次元</strong> であり，それを <strong>1,200</strong> or <strong> 600 </strong>次元にまで圧縮している．
+入力画像の3次元脳MR画像は約 <strong>500万次元</strong> であり，それを <strong>1,400</strong> 次元にまで圧縮している．
 
 
 
