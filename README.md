@@ -26,7 +26,7 @@ Isometric feature embedding for content-based image retrieval , Hayato Muraki, K
 
 
   
-Version
+<h2>Version</h2>
   
   <table>
 <thead>
