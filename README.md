@@ -2,8 +2,8 @@
 ![image](https://github.com/M-hayatooo/IE-CBIR/assets/82699320/e787a4f5-74ff-4453-a7bd-172333d33913)
 
 
-<strong>Isometric Feature Embedding for Content-Based Image Retrieval</strong>
-<strong>Author</strong>：Hayato Muraki, Kei Nishimaki, Shuya Tobaru, Kenichi Oishi, and Hitoshi Iyatomi
+<strong>Isometric Feature Embedding for Content-Based Image Retrieval</strong> <br>
+<strong>Author</strong>：Hayato Muraki, Kei Nishimaki, Shuya Tobaru, Kenichi Oishi, and Hitoshi Iyatomi <br>
 
 The purpose of this research is to realize a CBIR (content-based medical image retrieval) system.<br>
 
