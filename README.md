@@ -6,7 +6,6 @@
 
 **Author** : [Hayato Muraki](https://github.com/M-hayatooo), Kei Nishimaki, Shuya Tobaru, Kenichi Oishi, and [Hitoshi Iyatomi](https://iyatomi-lab.info) <br>
 
-
 The purpose of this research is to realize a CBIR (content-based medical image retrieval) system.<br>
 
 
