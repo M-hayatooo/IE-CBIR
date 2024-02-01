@@ -12,9 +12,8 @@ The purpose of this research is to realize a CBIR (content-based medical image r
 
 
 <h2> Accepted at the 58th Annual Conference on Information Sciences and Systems </h2>
-CISS 2024 https://ee-ciss.princeton.edu/
-
-
+This research was accepted at the CISS 2024 https://ee-ciss.princeton.edu/
+本論文は CISS 2024 に採択されました。
 
 
 
