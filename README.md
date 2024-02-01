@@ -1,7 +1,39 @@
+![image](https://github.com/M-hayatooo/IE-CBIR/assets/82699320/e787a4f5-74ff-4453-a7bd-172333d33913)
+
+
 # IE-CBIR
 Isometric Feature Embedding for Content-Based Image Retrieval
 
 The purpose of this research is to realize a CBIR (content-based medical image retrieval) system.<br>
+
+Author：Hayato Muraki, Kei Nishimaki, Shuya Tobaru, Kenichi Oishi, and Hitoshi Iyatomi
+Abst:Content-based image retrieval (CBIR) technology
+for brain MRI is needed for diagnostic support and research. To
+realize practical CBIR, it is necessary to obtain a low-dimensional
+representation that simultaneously achieves (i) data integrity,
+(ii) high disease retrieval capability, and (iii) interpretability.
+However, conventional methods based on machine learning techniques
+such as variational autoencoders (VAE) cannot acquire
+representations that satisfy these requirements; hence, an ad-hoc
+classification model must be prepared for disease retrieval. In this
+paper, we propose isometric feature embedding for CBIR (IECBIR),
+a low-dimensional representation acquisition framework
+that simultaneously satisfies the above requirements. In the
+evaluation experiment using the ADNI2 dataset of t1-weighted
+3D brain MRIs from 573 subjects (3,557 cases in total), the
+low-dimensional representation acquired by IE-CBIR (1/4,096 of
+the number of elements compared with the original) achieved
+a classification performance of 0.888 in F1 score and 91.5% in
+accuracy for Alzheimer’s disease and normal cognitive subjects,
+without the need for ad hoc models, while achieving a high
+preservation of the original data. This diagnostic performance
+outperformed machine learning methods such as CNNs (76-91%
+accuracy), which specialize in classification without considering
+the acquisition of low-dimensional representations and their
+interpretability.
+Index Terms—
+
+
 この研究はCBIRシステムの実現に向けたもの.
 
 高次元データな3次元脳MR画像を次元削減を行い，低次元空間に写像した後，低次元空間上で類似度計算を行い<br>類似症例を提示することができる画像を入力とした検索システムの開発を目標としている．<br><br>
