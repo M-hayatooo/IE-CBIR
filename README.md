@@ -32,7 +32,7 @@ the acquisition of low-dimensional representations and their interpretability._
 This research was accepted at the CISS 2024 https://ee-ciss.princeton.edu/ <br>
 
 
-本論文は CISS 2024 に採択されました。
+本論文は CISS 2024 に採択された．
 
 Isometric feature embedding for content-based image retrieval , Hayato Muraki, Kei Nishimaki, Shuya Tobaru, Kenichi Oishi, and Hitoshi Iyatomi, Proc. Information Sciences and Systems  (CISS2024), Mar. 2024. (accepted)
 
