@@ -1,8 +1,8 @@
-# Isometric Feature Embedding for Content-Based Image Retrieval
+# IE-CBIR
 ![image](https://github.com/M-hayatooo/IE-CBIR/assets/82699320/e787a4f5-74ff-4453-a7bd-172333d33913)
 
 
-<strong>Isometric Feature Embedding for Content-Based Image Retrieval (IE-CBIR)</strong><br>
+<h3>Isometric Feature Embedding for Content-Based Image Retrieval (IE-CBIR)</h3><br>
 **Author** : [Hayato Muraki](https://github.com/M-hayatooo), Kei Nishimaki, Shuya Tobaru, Kenichi Oishi, and [Hitoshi Iyatomi](https://iyatomi-lab.info) <br>
 
 
