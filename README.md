@@ -29,7 +29,7 @@ the acquisition of low-dimensional representations and their interpretability._
 
 
 <h2> Accepted at the 58th Annual Conference on Information Sciences and Systems </h2>
-This research was accepted at the CISS 2024 https://ee-ciss.princeton.edu/ <br>
+This research was accepted at the CISS 2024 (https://ee-ciss.princeton.edu) <br>
 
 
 本論文は CISS 2024 に採択された．
