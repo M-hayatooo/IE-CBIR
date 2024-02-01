@@ -11,7 +11,7 @@ The purpose of this research is to realize a CBIR (content-based medical image r
 ゆえに本研究では再構成画像の解像度の向上を目的とし，精度向上に取り組んでいる．
 
 
-<h2> This research was accepted at the 58th Annual Conference on Information Sciences and Systems </h2>
+<h2> Accepted at the 58th Annual Conference on Information Sciences and Systems </h2>
 CISS 2024 https://ee-ciss.princeton.edu/
 
 
