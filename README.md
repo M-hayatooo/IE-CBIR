@@ -9,17 +9,7 @@
 The purpose of this research is to realize a CBIR (content-based medical image retrieval) system.<br>
 
 
-**Abstract** : _Content-based image retrieval (CBIR) technology for brain MRI is needed for diagnostic support and research. To
-realize practical CBIR, it is necessary to obtain a low-dimensional representation that simultaneously achieves (i) data integrity, (ii) high disease retrieval capability, and (iii) interpretability. However, conventional methods based on machine learning techniques
-such as variational autoencoders (VAE) cannot acquire representations that satisfy these requirements; hence, an ad-hoc
-classification model must be prepared for disease retrieval. In this paper, we propose isometric feature embedding for CBIR (IECBIR),
-a low-dimensional representation acquisition framework that simultaneously satisfies the above requirements. In the
-evaluation experiment using the ADNI2 dataset of t1-weighted 3D brain MRIs from 573 subjects (3,557 cases in total), the
-low-dimensional representation acquired by IE-CBIR (1/4,096 of the number of elements compared with the original) achieved
-a classification performance of 0.888 in F1 score and 91.5% in accuracy for Alzheimer’s disease and normal cognitive subjects,
-without the need for ad hoc models, while achieving a high preservation of the original data. This diagnostic performance
-outperformed machine learning methods such as CNNs (76-91% accuracy), which specialize in classification without considering
-the acquisition of low-dimensional representations and their interpretability._
+**Abstract** : _Content-based image retrieval (CBIR) technology for brain MRI is needed for diagnostic support and research. To realize practical CBIR, it is necessary to obtain a low-dimensional representation that simultaneously achieves (i) data integrity, (ii) high disease retrieval capability, and (iii) interpretability. However, conventional methods based on machine learning techniques such as variational autoencoders (VAE) cannot acquire representations that satisfy these requirements; hence, an ad-hoc classification model must be prepared for disease retrieval. In this paper, we propose isometric feature embedding for CBIR (IECBIR), a low-dimensional representation acquisition framework that simultaneously satisfies the above requirements. In the evaluation experiment using the ADNI2 dataset of t1-weighted 3D brain MRIs from 573 subjects (3,557 cases in total), the low-dimensional representation acquired by IE-CBIR (1/4,096 of the number of elements compared with the original) achieved a classification performance of 0.888 in F1 score and 91.5% in accuracy for Alzheimer’s disease and normal cognitive subjects, without the need for ad hoc models, while achieving a high preservation of the original data. This diagnostic performance outperformed machine learning methods such as CNNs (76-91% accuracy), which specialize in classification without considering the acquisition of low-dimensional representations and their interpretability._
 
 
 
