@@ -50,7 +50,7 @@ Isometric feature embedding for content-based image retrieval , Hayato Muraki, K
 </tr>
 <tr>
 <td><code>torch</code></td>
-<td>&gt;= <code>1.2</code> (tested on <code>1.7</code>)</td>
+<td>&gt;= <code>1.2</code></td>
 </tr>
 <tr>
 <td><code>torchvision</code></td>
