@@ -4,9 +4,9 @@ import random
 import time
 from asyncore import loop
 
+import lossfunc.lossf as lossf
 import matplotlib.pyplot as plt
-import models.lossf as lossf
-import models.models as models
+import models.model as models
 import numpy as np
 import torch
 import torch.distributed as dist
@@ -191,7 +191,7 @@ def train_RaDOGAGA_VAE(
             train_run_d1 += d1.item()
             train_run_d2 += d2.item()
             train_run_kl += kl.item()
-#__________________________________________________________________________________#
+    # __________________________________________________________________________________#
         train_run_loss /= len(train_loader)
         train_run_d1 /= len(train_loader)
         train_run_d2 /= len(train_loader)
@@ -305,7 +305,7 @@ def train_soft_intro_vae(
     # beta_kl = 0.75
     gamma_r = 1e-8
     scale = (8) / (80 * 96 * 80)  # normalizing constant, 's' in the paper desu
-    #scale = (1) / (3 * 256 * 256)    # 80 * 96 = 7,680
+    # scale = (1) / (3 * 256 * 256)    # 80 * 96 = 7,680
     # 80*96*80 = 614,400   # 2/80*96*80 = 307,200  # 4/80*96*80  = 153,600
     # 8/80*96*80= 76,800   # 16/80*96*80=  38,400  # 32/80*96*80 = 19,200
     # 256 * 256 = 65,536   # 256*256*3  = 196,608   # 160 * 160   = 25,600
@@ -342,7 +342,7 @@ def train_soft_intro_vae(
 
         for batch, labels in train_loader:
             print(f"輝度値最大={max(batch[0])}, 輝度値最小={torch.min(batch[0])}")
-            #**************  training  ***************
+            # **************  training  ***************
             b_size = batch.size(0)
             # noise_batch = torch.randn(size=(b_size,1,5,6,5)).to(device)
             noise_batch = torch.randn(size=(b_size,1,10,12,10)).to(device)
@@ -477,7 +477,7 @@ def train_soft_intro_vae(
         with torch.no_grad():
             for batch, labels in val_loader:
                 b_size = batch.size(0)
-                #print(f"batch size == {b_size}")
+                # print(f"batch size == {b_size}")
                 noise_batch = torch.randn(size=(b_size,1,10,12,10)).to(device)# noise_batch=torch.randn(size=(b_size,1,5,6,5)).to(device)
                 real_batch = batch.to(device)
                 # ============================ Encoder ===============================
