@@ -8,6 +8,7 @@ logs/
 
 result/
 params/
+wandb/
 
 ### Python ###
 # Byte-compiled / optimized / DLL files
