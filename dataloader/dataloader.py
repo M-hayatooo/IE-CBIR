@@ -48,8 +48,8 @@ def load_dataloader(n_train_rate, batch_size, augment_flag, index_num, class_set
 #    tid, vid = list(gss.split(voxels, groups=pids))[0]
 
     train_voxels = voxels[tid]
-    val_voxels = voxels[vid]
     train_labels = labels[tid]
+    val_voxels = voxels[vid]
     val_labels = labels[vid]
 
     print(f"fold number={split_index}   Augment={augment_flag}", end="  ")
