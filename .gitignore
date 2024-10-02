@@ -9,6 +9,8 @@ logs/
 result/
 params/
 wandb/
+*.pdf
+*.ipynb
 
 ### Python ###
 # Byte-compiled / optimized / DLL files
