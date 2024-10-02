@@ -42,6 +42,23 @@ def RaDOBase_loss(x_rec_mu, x_rec_z, mu, logvar, cos_loss, inputs, d1_w, d2_w, k
     return loss, se, mse, kld, d1, d2
 
 
+def VAEBase_loss(x_rec_z, mu, logvar, cos_loss, inputs, d1_w, kl_w):
+    mse = mse_loss(x_rec_z, inputs)
+    se = squared_error(x_rec_z, inputs)
+    d1 = se
+    kld = kld_loss(mu, logvar)
+    loss = d1_w*d1 + kl_w*kld + cos_loss
+    return loss, se, mse, kld, d1
+
+
+def CAEBase_loss(x_rec_z, cos_loss, inputs, d1_w):
+    mse = mse_loss(x_rec_z, inputs)
+    se = squared_error(x_rec_z, inputs)
+    d1 = se
+    loss = d1_w*d1 + cos_loss
+    return loss, se, mse, d1
+
+
 def localized_loss(x_hat, mu, logvar, localize_loss, x, msew=1, kldw=1, localizew=1):
     mse = mse_loss(x_hat, x) * msew
     kld = kld_loss(mu, logvar) * kldw
